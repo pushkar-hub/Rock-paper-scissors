@@ -24,6 +24,7 @@ body{
     border-radius: 60px;
     margin-right: 10px;
     cursor: pointer;
+
 }
 
 .result{
@@ -36,10 +37,17 @@ body{
     margin-top: 60px;
 }
 
-.reset-score-button{
+.reset-score-button,
+.autoPlay-button,
+.yes-button,
+.no-button{
     background-color: white;
     border: none;
     font-size: 15px;
     padding: 8px 15px;
     cursor: pointer;
+}
+
+.warning{
+    line-height: 40px;
 }
